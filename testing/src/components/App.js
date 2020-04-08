@@ -1,9 +1,9 @@
 import React from "react";
 
-import CommentBox from "./CommentBox";
-import CommentList from "./CommentList";
+import CommentBox from "components/CommentBox";
+import CommentList from "components/CommentList";
 
-const App = () => {
+export default () => {
   return (
     <div>
       <CommentBox />
@@ -11,5 +11,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;
