@@ -1,7 +1,12 @@
 import React from "react";
 
-const App = () => {
-  return <div>App</div>;
-};
+import Header from "./Header";
 
-export default App;
+export default ({ children }) => {
+  return (
+    <div>
+      <Header />
+      {children}
+    </div>
+  );
+};
