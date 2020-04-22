@@ -8,6 +8,7 @@ const router = require("./router");
 mongoose.connect("mongodb://localhost/auth_db", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  useCreateIndex: true,
 });
 
 const app = express();
